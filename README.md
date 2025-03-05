@@ -1,4 +1,4 @@
-<h1 align="center">Simple Chess AI</h1>
+<h1 align="center">ChessBot</h1>
 A chess AI that uses chess.js for move generation and chessboard.js for visualization. Implements Minimax with Alpha-Beta pruning for efficient decision-making. The evaluation function considers material and piece positioning to improve gameplay. Optimized for better strategic moves while maintaining performance.
 
 ## Execution Guide:
