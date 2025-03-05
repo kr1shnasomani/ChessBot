@@ -5,12 +5,12 @@ A chess AI that uses chess.js for move generation and chessboard.js for visualiz
 Open the terminal and do the following steps:
 1. Clone the repository:
    ```
-   git clone https://github.com/lhartikk/simple-chess-ai.git
+   git clone https://github.com/kr1shnasomani/ChessBot.git
    ```
 
 2. Navigate to the project directory:
    ```
-   cd simple-chess-ai
+   cd ChessBot
    ```
 
 3. Install npm:
