@@ -41,6 +41,7 @@ Open the terminal and do the following steps:
    <img width="1440" alt="image" src="https://github.com/user-attachments/assets/c97cd655-2d9c-44d8-b265-b8fc57d0d754" />
 
 ## Repository Structure:
+The following is the repository structure:
 ```
 simple-chess-ai/
 │── img/
