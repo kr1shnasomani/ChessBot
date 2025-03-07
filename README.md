@@ -81,8 +81,3 @@ ChessBot/
 │── script.js
 │── style.css      
 ```
-
-
-The article on this bot can be accessed on - **https://medium.freecodecamp.com/simple-chess-ai-step-by-step-1d55a9266977**
-
-The chess bot is playable on - **https://jsfiddle.net/q76uzxwe/1/**
