@@ -43,7 +43,7 @@ Open the terminal and run the following commands:
 ## Repository Structure:
 The following is the repository structure:
 ```
-simple-chess-ai/
+ChessBot/
 │── img/
 │   └── chesspieces/
 │       └── wikipedia/
