@@ -27,14 +27,13 @@ Run the following commands in the terminal:
    npm start
    ```
 
-5. The code will display two local host links:
+5. The code will display two local host links, open any of the links in the browser:
    ```
    http://127.0.0.1:8080
    ```
    ```
    http://192.168.16.194:8080
    ```
-   Open any one of the links in the browser
 
 6. This is how the project will look like upon successfuly execution:
    
