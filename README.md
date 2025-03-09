@@ -81,3 +81,36 @@ ChessBot/
 │── script.js
 │── style.css      
 ```
+
+## Code Output:
+
+![gameplay](https://cdn-media-1.freecodecamp.org/images/1*sX_XwfPrOQ6c62iuVZ75fw.gif)
+
+## Overview:
+### 1. Move Generation & Board Visualization:
+We use `chess.js` for move generation and `chessboard.js` for visualization. The move generation library handles chess rules, allowing us to calculate legal moves. Our initial function picks a random move from all possible moves.
+
+<img width="662" alt="image" src="https://github.com/user-attachments/assets/86015b57-374f-4298-8b12-debd998d4269" />
+
+### 2. Position Evaluation:
+To evaluate positions, we assign piece values:
+
+<img width="383" alt="image" src="https://github.com/user-attachments/assets/9ed38fee-9c1f-409d-8ce3-21cfc75aebae" />
+
+The algorithm now prioritizes capturing pieces when possible.
+
+### 3. Minimax Algorithm:
+Minimax explores all possible moves up to a certain depth and evaluates board positions. It selects the move that maximizes the advantage for the current player while minimizing the opponent’s advantage.
+
+![image](https://github.com/user-attachments/assets/edab3d7f-2b03-423a-8a30-e0e64c94c5b4)
+
+### 4. Alpha-Beta Pruning:
+Alpha-beta pruning optimizes Minimax by eliminating unnecessary branches, improving search depth and efficiency without affecting outcomes.
+
+![image](https://github.com/user-attachments/assets/d8a5ce97-3895-40fe-9379-1a41d6e92c48)
+
+### 5. Improved Evaluation Function:
+Beyond material value, we enhance evaluation using piece-square tables. Piece positioning influences the score—e.g., knights are stronger in the center.
+
+<img width="643" alt="image" src="https://github.com/user-attachments/assets/6f379370-06f1-4ceb-a649-3e16abb25b2f" />
+
