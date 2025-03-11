@@ -78,7 +78,7 @@ ChessBot/
 │── index.html
 │── package.json
 │── script.js
-│── style.css      
+└──style.css      
 ```
 
 ## Code Output:
