@@ -43,42 +43,40 @@ Run the following commands in the terminal:
 The following is the repository structure:
 ```
 ChessBot/
-│── img/
-│   └── chesspieces/
-│       └── wikipedia/
-│           ├── bB.png
-│           ├── bK.png
-│           ├── bN.png
-│           ├── bP.png
-│           ├── bQ.png
-│           ├── bR.png
-│           ├── wB.png
-│           ├── wK.png
-│           ├── wN.png
-│           ├── wP.png
-│           ├── wQ.png
-│           ├── wR.png
+│── img/chesspieces/wikipedia/
+│   ├── bB.png
+│   ├── bK.png
+│   ├── bN.png
+│   ├── bP.png
+│   ├── bQ.png
+│   ├── bR.png
+│   ├── wB.png
+│   ├── wK.png
+│   ├── wN.png
+│   ├── wP.png
+│   ├── wQ.png
+│   └── wR.png
 │── lib/
 │   ├── chessboardjs/
 │   │   ├── css/
 │   │   │   ├── chessboard-0.3.0.css
-│   │   │   ├── chessboard-0.3.0.min.css
+│   │   │   └── chessboard-0.3.0.min.css
 │   │   ├── js/
 │   │   │   ├── chess.js
 │   │   │   ├── chessboard-0.3.0.js
-│   │   │   ├── chessboard-0.3.0.min.js
+│   │   │   └── chessboard-0.3.0.min.js
 │   │   ├── LICENSE.txt
 │   ├── jquery/
-│   │   ├── jquery-3.2.1.min.js
+│   │   └── jquery-3.2.1.min.js
 │── js/
-│   ├── chess.js
+│   └── chess.js
 │── .gitignore
 │── LICENSE
 │── README.md
 │── index.html
 │── package.json
 │── script.js
-└──style.css      
+└── style.css      
 ```
 
 ## Code Output:
