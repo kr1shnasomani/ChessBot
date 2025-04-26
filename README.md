@@ -84,8 +84,3 @@ ChessBot/
 <div align="center">
   <img src="https://cdn-media-1.freecodecamp.org/images/1*sX_XwfPrOQ6c62iuVZ75fw.gif" alt="GIF">
 </div>
-
-### 5. Improved Evaluation Function:
-Beyond material value, we enhance evaluation using piece-square tables. Piece positioning influences the score—e.g., knights are stronger in the center.
-
-<img width="643" alt="image" src="https://github.com/user-attachments/assets/6f379370-06f1-4ceb-a649-3e16abb25b2f" />
